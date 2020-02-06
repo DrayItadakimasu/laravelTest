@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+input[type='text']{
+    height: 45px;
+    width: 225px;
+    border: 1px solid gray;
+    background: white;
+}
+select{
+    height: 45px;
+    width: 225px;
+    border: 1px solid gray;
+    background: white;
+    font-size: 18px;
+}
+button.btn-delete{
+    border: 1px solid #c6c6c6;
+    background: #c6c6c6;
+    height: 22px;
+    width: 25px;
+    cursor: pointer;
+    
+}
+h1.colored-title{
+    font-size: 56px;
+    color: #bcd232;
+    margin-top: 0;
+}
+button.btn-delete:hover{
+    background: #bcd232;
+    border: 1px solid #bcd232;
+}
+.btn-submit{
+    width: 225px;
+    height: 45px;
+    border: none;
+    background: #bcd232;
+    color: white;
+    margin-bottom: 30px;
+    color: white;
+
+    font-weight: 600;
+    cursor: pointer;
+}
+a.politic{
+    display: block;
+    color: #bcd232;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+nav{
+    padding-top: 30px;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1140px;
+    margin: 0 auto;
+}
+nav .menu ul{
+    display: flex;
+    list-style: none;
+}
+nav .menu ul li {
+    height: 100%;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+img.phone-in-circle{
+    position: absolute;
+    right: -100px;
+    top: 180px;
+}
+
+
+section.form-section{
+    height: 1030px;
+    background: url(../images/header.png)no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+section.form-section .form-body{
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+}
+section.form-section .form-body h2{
+    font-size: 39px;
+    margin-bottom: 15px;
+}
+section.form-section .form-body form{
+    background: #ffffff;
+    padding: 50px;
+    height: calc(678px - 50px);
+    width: calc(585px - 50px );
+    box-shadow:  0 0 20px 5px #e4edb6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.form-section .form-body form .group{
+    flex-basis: 50%;
+    height: 90px;
+}
+section.form-section .form-body form .group label{
+    display: block;
+    padding-bottom: 8px;
+}
+section.form-section .form-body form .button-block{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+section.form-section .bottom-line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #bcd232;
+     
+}
+section.form-section .bottom-line .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+section.form-section .bottom-line .container h3{
+    color: white;
+    margin-right: 60px;
+}
+section.form-section .bottom-line .container img{
+    margin-right: 103px;
+    color: white;
+}
+
+section.show-tasks{
+    min-height: 100vh;
+    background: #ebebeb;
+    padding-top: 137px;
+}
+.task{
+    width: 100%;
+    height: 108px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+.delete-task{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.number-task{
+    height: 100%;
+    width: 98px;
+    background: #bcd232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number-task h1{
+    color: white;
+    font-size: 18px;
+}
+.tab{
+    flex-basis: 147px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.info p{
+    font-weight: 400;
+}
+.info{
+    width: 148px;
+    border-right: 1px solid gray;
+    width: 100%;
+}
+.message.tab,
+.call.tab{
+    margin: 0px 20px;
+}
+.message.tab .info,
+.specialty.tab .info,
+.call.tab .info{
+    border-right: none!important;
+}
+.info button{
+    width: 165px;
+    height: 40px;
+    background: #bcd232;
+    border: none;
+}
+
+footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
